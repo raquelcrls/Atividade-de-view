@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    {% for aluno in alunos %}
+    <p>   
+            Nome: {{aluno.nome}} ---
+            Email: {{aluno.email}} ---
+            CPF: {{aluno.cpf}} ---
+            Data de nascimento: {{aluno.data_de_nascimento}}    
+    </p>
+    {% endfor %}
+
+
+</body>
+</html>
